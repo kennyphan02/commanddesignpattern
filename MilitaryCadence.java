@@ -18,7 +18,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singIDontKnow(){
-        final String FILE_NAME = "/home/kenny/commanddesignpattern/idontknow.txt";
+        final String FILE_NAME = "idontknow.txt";
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
@@ -42,7 +42,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singEverywhereWeGo(){
-        final String FILE_NAME = "/home/kenny/commanddesignpattern/everywhere.txt";
+        final String FILE_NAME = "everywhere.txt";
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
@@ -66,7 +66,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singInArmy(){
-        final String FILE_NAME = "/home/kenny/commanddesignpattern/inarmy.txt";
+        final String FILE_NAME = "inarmy.txt";
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
