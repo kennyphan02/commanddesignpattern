@@ -3,7 +3,7 @@ public class InArmyCommand implements Command{
 
     }
     public void execute(){
-        
+        cadence.singInArmy();
     }
     
 }
