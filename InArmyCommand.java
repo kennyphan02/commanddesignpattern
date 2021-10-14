@@ -5,7 +5,7 @@ public class InArmyCommand implements Command {
     public InArmyCommand(MilitaryCadence cadence) {
         this.cadence = cadence;
     }
-    
+
     public void execute() {
         this.cadence.singInArmy();
     }
