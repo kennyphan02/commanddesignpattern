@@ -7,5 +7,4 @@ public class InArmyCommand implements Command {
     public void execute(){
         this.cadence.singInArmy();
     }
-    
 }
