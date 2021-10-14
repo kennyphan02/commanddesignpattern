@@ -1,3 +1,8 @@
+/**
+ * @author Kenny Phan, Danai Angelidis, Thomas Vu, Daniel Nguyen
+ * IDontKnowCommand contains contents and methods of what IDontKnow does. implements command.
+ */
+
 public class IDontKnowCommand implements Command {
 
     private MilitaryCadence cadence;

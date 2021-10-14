@@ -1,3 +1,7 @@
+/**
+ * @author Kenny Phan, Danai Angelidis, Thomas Vu, Daniel Nguyen
+ * InArmyCommands contains contents and methods of what an InArmy does. Implements command.
+ */
 public class InArmyCommand implements Command {
    
     private MilitaryCadence cadence;

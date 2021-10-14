@@ -1,5 +1,6 @@
 /**
  * The MilitaryCadence class contains contents of 3 military cadences, Idontknow, everywhere, and inarmy.
+ * @author Kenny Phan, Danai Angelidis, Daniel Nguyen, Thomas Vu
  */
 import java.util.concurrent.TimeUnit;
 import java.io.File;
@@ -18,7 +19,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singIDontKnow(){
-        final String FILE_NAME = "idontknow.txt";
+        final String FILE_NAME = "idontknow.txt"; // subject to change based on file destination
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
@@ -42,7 +43,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singEverywhereWeGo(){
-        final String FILE_NAME = "everywhere.txt";
+        final String FILE_NAME = "everywhere.txt"; // subject to change based on file destination
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
@@ -66,7 +67,7 @@ public class MilitaryCadence {
      * the next line in the file.
      */
     public void singInArmy(){
-        final String FILE_NAME = "inarmy.txt";
+        final String FILE_NAME = "inarmy.txt"; // subject to change based on file destination
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);

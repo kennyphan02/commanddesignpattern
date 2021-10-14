@@ -1,3 +1,7 @@
+/**
+ * @author Kenny Phan, Danai Angelidis, Thomas Vu, Daniel Nguyen
+ * InputHandler contains contents and methods of what an InputHandler is.
+ */
 import java.util.ArrayList;
 
 public class InputHandler {

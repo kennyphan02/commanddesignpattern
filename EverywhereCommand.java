@@ -1,3 +1,7 @@
+/**
+ * @author Kenny Phan, Danai Angelidis, Thomas Vu, Daniel Nguyen
+ * EverywhereCommand class that contents the contents and methods to print cadence. Implements command
+ */
 public class EverywhereCommand implements Command {
 
     private MilitaryCadence cadence;
