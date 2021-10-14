@@ -24,11 +24,12 @@ public class InputHandler {
      * @return True if the cadence can be played, false if it can't.
      */
     public boolean playCadence(int num) {
-        if(num > this.commands.size()) {
-            return false;
+        if(num < this.commands.size()) {
+            Command command = this.commands.get(num);
+            command.execute();
+            return true;
         }
-        this.commands.get(num);
-        return true;
+        return false;
     } 
 
 }
