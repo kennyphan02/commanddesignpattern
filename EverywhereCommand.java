@@ -5,7 +5,7 @@ public class EverywhereCommand implements Command {
     }
     
     public void execute() {
-        
+        cadence.singEverywhereWeGo();
     }
     
 }
